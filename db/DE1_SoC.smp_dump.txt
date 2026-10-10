@@ -1,0 +1,11 @@
+
+State Machine - |car_detection|ns
+Name ns~20 ns~19 ns~18 
+ns.NOTHING 0 0 0 
+ns.E10 0 0 1 
+ns.E11 0 1 0 
+ns.E01 0 1 1 
+ns.X01 1 0 0 
+ns.X11 1 0 1 
+ns.X10 1 1 0 
+ns.WAIT00 1 1 1 

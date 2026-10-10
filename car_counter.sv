@@ -1,4 +1,4 @@
-// keep track of cars up to 5 of a counter MEOW MEOW
+// keep track of cars up to 5 of a counter
 module car_counter (clk, reset, enter, exit, count);
     input logic clk, reset, enter, exit;
     output logic [2:0] count;

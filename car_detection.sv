@@ -102,6 +102,8 @@ module car_detection (clk, reset, outer, inner, enter, exit);
 
 endmodule 
 
+// bruh bruh bruh
+
 
 module car_detection_testBench();
 	logic clk, reset, outer, inner;
@@ -165,7 +167,7 @@ module car_detection_testBench();
 		#20 outer = 1; inner = 0;
 		#20 outer = 0; inner = 1;
 		#20 outer = 0; inner = 0;
-		#40;
+		#50;
 		
 		#100;
 		$finish;
